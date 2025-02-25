@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Globe from 'react-globe.gl';
 
-import Button from '../components/Button.jsx';
+
 
 const About = () => {
   const [hasCopied, setHasCopied] = useState(false);
@@ -64,7 +64,7 @@ const About = () => {
             <div>
               <p className="text-xl font-semibold mb-2 text-white font-generalsans">I’m very flexible with time zone communications & locations</p>
               <p className="text-[#afb0b6] text-base font-generalsans">I&apos;m based in Kathmandu, Nepal and open to remote work worldwide.</p>
-              <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
+              
             </div>
           </div>
         </div>
