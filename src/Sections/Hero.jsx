@@ -5,7 +5,7 @@ const Hero = () => {
           {/* Profile Section */}
           <div className="flex flex-col items-center">
             <img
-              src="src/assets/pr.jpeg"
+              src="/images/pr.jpeg"
               alt="profile"
               className="h-40 w-40 md:h-52 md:w-52 rounded-lg shadow-inner shadow-black object-cover"
             />
@@ -20,10 +20,10 @@ const Hero = () => {
             </h2>
             <h2 className="text-3xl md:text-5xl font-black font-mono">great experiences through Code</h2>
             <div className="pt-6 flex flex-col md:flex-row gap-4">
-              <button className="bg-rose-200 px-4 py-2 rounded-3xl text-black font-semibold font-mono w-full md:w-auto">
+              <button className="bg-rose-200 px-4 py-2 rounded-3xl text-black font-semibold font-mono w-full md:w-auto cursor-pointer">
                 Talk With Me
               </button>
-              <button className="bg-rose-200 px-4 py-2 rounded-3xl text-black font-semibold font-mono w-full md:w-auto">
+              <button className="bg-rose-200 px-4 py-2 rounded-3xl text-black font-semibold font-mono w-full md:w-auto cursor-pointer">
                 See My Work
               </button>
             </div>
